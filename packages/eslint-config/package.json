@@ -1,0 +1,27 @@
+{
+  "name": "@utori-dev/eslint-config",
+  "version": "0.0.0",
+  "description": "Base ESLint configuration settings",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/utori-dev/eslint-config.git"
+  },
+  "keywords": [
+    "eslint-config",
+    "eslint",
+    "lint"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/utori-dev/eslint-config/issues"
+  },
+  "homepage": "https://github.com/utori-dev/eslint-config#readme",
+  "peerDependencies": {
+    "eslint": "^7.24.0"
+  }
+}
