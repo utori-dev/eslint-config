@@ -4,7 +4,8 @@
   "description": "Base ESLint configuration settings",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint index.js rules"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,9 @@
     "url": "https://github.com/utori-dev/eslint-config/issues"
   },
   "homepage": "https://github.com/utori-dev/eslint-config#readme",
+  "devDependencies": {
+    "eslint": "^7.24.0"
+  },
   "peerDependencies": {
     "eslint": "^7.24.0"
   }
